@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Gasthaus Schlössle</title>
   <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Gasthaus Schlössle. Menu, hours, reservations." />
+  <meta name="description" content="Gasthaus Schlössle. Karte, Öffnungszeiten, Reservieren." />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
         <a href="#"><span class="logo">Gasthaus Schlössle</span></a>
-        <small class="tagline">Neighborhood Kitchen</small>
+        <small class="tagline">Kleine Familiengeführtes Restaurant</small>
       </div>
 
       <nav id="site-nav" class="nav">
@@ -20,8 +20,8 @@
         <a href="#menu">Menu</a>
         <a href="#about">About</a>
         <a href="#gallery">Gallery</a>
-        <a href="#contact">nedeljko.hajduk@gmail.com</a>
-        <a class="btn btn-primary" href="tel:09077 7003886">Reserve</a>
+        <a href="#contact">Kontakt</a>
+        <a class="btn btn-primary" href="tel:09077 7003886">Reservieren</a>
       </nav>
 
       <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">☰</button>
@@ -32,31 +32,31 @@
     <section id="home" class="hero">
       <div class="hero-inner container">
         <h1>Wilkommen in Gasthaus Schlössle</h1>
-        <p>Fresh ingredients · Seasonal menu · Friendly service</p>
+        <p>Frisch · Groß · Freundlich</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="tel:09077 7003886">Book a Table</a>
-          <a class="btn" href="#menu">View Menu</a>
+          <a class="btn btn-primary" href="tel:09077 7003886">Reserviere Tisch</a>
+          <a class="btn" href="#menu">Speisekarte</a>
         </div>
       </div>
     </section>
 
     <section id="menu" class="container section">
-      <h2>Our Menu</h2>
-      <p class="lead">Simple, seasonal dishes made with care.</p>
+      <h2>Popular</h2>
+      <p class="lead">Einfache und große Portionen mit liebe gemacht.</p>
 
       <div class="menu-grid">
         <article class="menu-card">
           <h3>Vom Grill</h3>
           <ul>
-            <li><span class="dish">Zwiebelrostbraten B</span><span class="price">$25.90</span></li>
-            <li><span class="dish">Schlössle Pizza</span><span class="price">$9-15</span></li>
-            <li><span class="dish">Pola Pola</span><span class="price">$18.80</span></li>
           </ul>
         </article>
 
         <article class="menu-card">
           <h3></h3>
           <ul>
+            <li><span class="dish">Zwiebelrostbraten B</span><span class="price">$25.90</span></li>
+            <li><span class="dish">Schlössle Pizza</span><span class="price">$9-15</span></li>
+            <li><span class="dish">Pola Pola</span><span class="price">$18.80</span></li>
           </ul>
         </article>
 
@@ -71,16 +71,21 @@
     <section id="about" class="container section split">
       <div>
         <h2>About Us</h2>
-        <p>La Bella is a cozy neighborhood restaurant offering seasonal dishes inspired by Mediterranean flavors. We focus on fresh produce, friendly service, and an inviting atmosphere.</p>
+        <p>Das Gasthaus Schlössle steht für herzliche Gastfreundschaft, regionale Küche und ein Ambiente, das Tradition und Gemütlichkeit verbindet.
+          In unserem familiengeführten Haus genießen Gäste frisch zubereitete Speisen, saisonale Spezialitäten und eine Atmosphäre, in der man sich sofort wohlfühlt.
+          Ob zum Abendessen oder für besondere Anlässe – das Schlössle ist ein Ort zum Genießen, Verweilen und Zusammenkommen.
+
+
+.</p>
       </div>
       <div class="hours">
-        <h3>Hours & Location</h3>
+        <h3>Öffnungszeiten und Adresse</h3>
         <p><strong>Dienstag–Samstag:</strong> 17:00 — 22:30<br /><strong>Sonntag:</strong>11:00 — 21:00</p>
-        <p><strong>Address:</strong><br />Klingenplatz 5, Staufen</p>
+        <p><strong>Adresse:</strong><br />Klingenplatz 5, 89428 Staufen</p>
       </div>
     </section>
 
-    <section id="gallery" class="container section">
+    <section id="Galerie" class="container section">
       <h2>Gallery</h2>
       <div class="gallery-grid">
         <img src="images/photo1.jpg" alt="Eingang" />
@@ -90,11 +95,11 @@
     </section>
 
     <section id="contact" class="container section">
-      <h2>Contact</h2>
+      <h2>Kontakt</h2>
       <div class="contact-grid">
         <form id="contact-form" class="contact-form">
           <label>
-            Name
+            Name, Vorname
             <input type="text" name="name" required />
           </label>
           <label>
@@ -102,14 +107,14 @@
             <input type="email" name="email" required />
           </label>
           <label>
-            Message
-            <textarea name="message" rows="4" required></textarea>
+            Nachricht
+            <textarea name="Nachricht" rows="4" required></textarea>
           </label>
           <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary">Absenden</button>
             <button type="button" id="clear-btn" class="btn">Clear</button>
           </div>
-          <p id="form-note" class="muted">This form demo uses client-side handling. Hook to your backend or service to receive messages.</p>
+          <p id="form-note" class="muted"></p>
         </form>
 
         <div class="map">
@@ -126,13 +131,14 @@
   <footer class="site-footer">
     <div class="container">
       <p>© <span id="year"></span> Gasthaus Schlössle— All rights reserved.</p>
-      <p class="muted">Call: <a href="tel:09077 7003886">01798260321</a> · Email: <a href="mailto:nedeljko.hajduk@gmail.com">nedeljko.hajduk@gmail.com</a></p>
+      <p class="muted">Anrufen: <a href="tel:09077 7003886">01798260321</a> · E-Mail: <a href="mailto:nedeljko.hajduk@gmail.com">nedeljko.hajduk@gmail.com</a></p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
