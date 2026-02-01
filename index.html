@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gasthaus Schlössle</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Gasthaus Schlössle. Menu, hours, reservations." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#"><span class="logo">Gasthaus Schlössle</span></a>
+        <small class="tagline">Neighborhood Kitchen</small>
+      </div>
+
+      <nav id="site-nav" class="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">nedeljko.hajduk@gmail.com</a>
+        <a class="btn btn-primary" href="tel:09077 7003886">Reserve</a>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <h1>Wilkommen in Gasthaus Schlössle</h1>
+        <p>Fresh ingredients · Seasonal menu · Friendly service</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:09077 7003886">Book a Table</a>
+          <a class="btn" href="#menu">View Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="container section">
+      <h2>Our Menu</h2>
+      <p class="lead">Simple, seasonal dishes made with care.</p>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <h3>Starters</h3>
+          <ul>
+            <li><span class="dish">Zwiebelrostbraten B</span><span class="price">$25.90</span></li>
+            <li><span class="dish">Schlössle Pizza</span><span class="price">$9-15</span></li>
+            <li><span class="dish">Pola Pola</span><span class="price">$18.80</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Mains</h3>
+          <ul>
+            <li><span class="dish">Herb Chicken</span><span class="price">$18</span></li>
+            <li><span class="dish">Pan-Seared Salmon</span><span class="price">$20</span></li>
+            <li><span class="dish">Mushroom Risotto</span><span class="price">$16</span></li>
+          </ul>
+        </article>
+
+        <article class="menu-card">
+          <h3>Desserts</h3>
+          <ul>
+            <li><span class="dish">Tiramisu</span><span class="price">$7</span></li>
+            <li><span class="dish">Panna Cotta</span><span class="price">$7</span></li>
+            <li><span class="dish">Gelato</span><span class="price">$6</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section split">
+      <div>
+        <h2>About Us</h2>
+        <p>La Bella is a cozy neighborhood restaurant offering seasonal dishes inspired by Mediterranean flavors. We focus on fresh produce, friendly service, and an inviting atmosphere.</p>
+      </div>
+      <div class="hours">
+        <h3>Hours & Location</h3>
+        <p><strong>Dienstag–Samstag:</strong> 17:00 — 22:30<br /><strong>Sonntag:</strong>11:00 — 21:00</p>
+        <p><strong>Address:</strong><br />Klingenplatz 5, Staufen</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="container section">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/photo1.jpg" alt="Eingang" />
+        <img src="images/photo2.jpg" alt="Biergarten" />
+        <img src="images/photo3.jpg" alt="Theke" />
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="button" id="clear-btn" class="btn">Clear</button>
+          </div>
+          <p id="form-note" class="muted">This form demo uses client-side handling. Hook to your backend or service to receive messages.</p>
+        </form>
+
+        <div class="map">
+          <!-- Replace the src with your Google Maps embed or an image -->
+          <iframe
+            title="map"
+            src="https://www.google.com/maps?q=New+York+City&output=embed"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> La Bella — All rights reserved.</p>
+      <p class="muted">Call: <a href="tel:09077 7003886">+1 (234) 567-89</a> · Email: <a href="mailto:nedeljko.hajduk@gmail.com">info@labella.example</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
